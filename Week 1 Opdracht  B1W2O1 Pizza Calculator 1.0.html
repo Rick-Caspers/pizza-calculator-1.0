@@ -1,0 +1,21 @@
+
+<html>
+  <body>
+    <script>
+    const SmallPizz = 5.50 ; 
+    const MediPizz = 7.50;
+    const LargePizz = 11.00;
+
+    var small = prompt('Hoeveel Small Pizzas wilt u bestellen?');
+    var medi = prompt('Hoeveel Medium Pizzas wilt u bestellen?');
+    var large = prompt('hoeveel Large Pizzas wilt u bestellen?');
+
+    var Xsmall = (SmallPizz * small);
+    var Xmedi = (MediPizz * medi);
+    var Xlarge = (LargePizz * large);
+    var totaal = (Xsmall + Xmedi + Xlarge);
+    
+    alert('u heeft ' + small + ' small pizzas, ' + medi +' medium pizzas en ' + large + ' large pizzas besteld. uw totaal bedrag is ' + totaal + '.');
+    </script>
+  </body>
+</html>
